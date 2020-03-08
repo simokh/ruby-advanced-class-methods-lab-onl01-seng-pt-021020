@@ -54,6 +54,10 @@ class Song
     new_song_create = self.create_by_name
   end
 
+  def self.destroy_all
+    self.all.clear
+  end 
+
 
 
 
