@@ -12,31 +12,11 @@ class Song
 
 
   def self.create
-    self.create 
-
+    song = self.create
+    self.all << song
+    song
   end
 
-  def self.find_by_name
-
-  end
-
-
-  def self.find_or_create_by_name
-
-  end
-
-
-  def alphabetical
-
-  end
-
-  def new_from_filename
-
-  end
-
-  def destroy_all
-
-  end
 
 
 
