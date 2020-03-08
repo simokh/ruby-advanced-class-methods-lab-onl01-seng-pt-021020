@@ -41,6 +41,11 @@ class Song
     end
   end
 
+  def sefl.alphabetical(name)
+    @@all = self.all.sort_by {|song| song.name}
+    @@all
+  end 
+
 
 
 
