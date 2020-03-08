@@ -41,7 +41,7 @@ class Song
     end
   end
 
-  def sefl.alphabetical(name)
+  def sefl.alphabetical
     alphabetical_sort = self.all.sort_by {|song| song.name}
     alphabetical_sort
   end
