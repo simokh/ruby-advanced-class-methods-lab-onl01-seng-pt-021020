@@ -46,13 +46,13 @@ class Song
     alphabetical_sort
   end
 
-  def slef.new_from_filename(name)
+  def new_from_filename(name)
     new_song_name = self.new_by_name
   end
 
-  def self.create_from_filename
+  def self.create_from_filename(name)
     new_song_create = self.create_by_name
-  end 
+  end
 
 
 
