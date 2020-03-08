@@ -46,17 +46,17 @@ class Song
     alphabetical_sort
   end
 
-  def new_from_filename(name)
+  def self.new_from_filename(name)
     new_song_name = self.new_by_name
   end
 
-  def create_from_filename(name)
+  def self.create_from_filename(name)
     new_song_create = self.create_by_name
   end
 
   def self.destroy_all
     self.all.clear
-  end 
+  end
 
 
 
